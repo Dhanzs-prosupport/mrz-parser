@@ -1,8 +1,8 @@
 <?php
 
-namespace Deft\MrzParser\Parser;
+namespace MrzParser\Parser;
 
-use Deft\MrzParser\Exception\ParseException;
+use MrzParser\Exception\ParseException;
 
 abstract class AbstractParser implements ParserInterface
 {

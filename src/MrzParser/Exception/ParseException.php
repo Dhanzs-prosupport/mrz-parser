@@ -1,6 +1,6 @@
 <?php
 
-namespace Deft\MrzParser\Exception;
+namespace MrzParser\Exception;
 
 class ParseException extends Exception
 {

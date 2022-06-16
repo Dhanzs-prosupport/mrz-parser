@@ -1,6 +1,6 @@
 <?php
 
-namespace Deft\MrzParser\Document;
+namespace MrzParser\Document;
 
 final class TravelDocumentType
 {
@@ -8,4 +8,5 @@ final class TravelDocumentType
 
     const PASSPORT = 'P';
     const ID_CARD = 'I';
+    const NOT_FOUND = 'X';
 }

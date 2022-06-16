@@ -1,11 +1,11 @@
 <?php
 
-namespace Deft\MrzParser\Parser;
+namespace MrzParser\Parser;
 
-use Deft\MrzParser\Exception\ParseException;
-use Deft\MrzParser\Document\TravelDocument;
-use Deft\MrzParser\Document\TravelDocumentInterface;
-use Deft\MrzParser\Document\TravelDocumentType;
+use MrzParser\Exception\ParseException;
+use MrzParser\Document\TravelDocument;
+use MrzParser\Document\TravelDocumentInterface;
+use MrzParser\Document\TravelDocumentType;
 
 /**
  * Parser of Passport MRZ strings. The machine readable zone on a passport has
@@ -25,7 +25,7 @@ use Deft\MrzParser\Document\TravelDocumentType;
  *   87 - 87: Check digit
  *   88 - 88: Check digit
  *
- * @package Deft\MrzParser
+ * @package MrzParser
  */
 class PassportParser extends AbstractParser
 {

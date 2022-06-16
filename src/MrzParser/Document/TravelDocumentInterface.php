@@ -1,6 +1,6 @@
 <?php
 
-namespace Deft\MrzParser\Document;
+namespace MrzParser\Document;
 
 interface TravelDocumentInterface
 {

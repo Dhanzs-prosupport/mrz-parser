@@ -1,9 +1,9 @@
 <?php
 
-namespace Deft\MrzParser\Parser;
+namespace MrzParser\Parser;
 
-use Deft\MrzParser\Exception\ParseException;
-use Deft\MrzParser\TravelDocumentInterface;
+use MrzParser\Exception\ParseException;
+use MrzParser\TravelDocumentInterface;
 
 interface ParserInterface
 {

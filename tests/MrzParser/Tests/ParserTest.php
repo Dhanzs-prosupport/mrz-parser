@@ -1,6 +1,6 @@
 <?php
 
-namespace Deft\MrzParser\Tests;
+namespace MrzParser\Tests;
 
 use Deft\MrzParser\MrzParser;
 use Deft\MrzParser\MrzParserInterface;

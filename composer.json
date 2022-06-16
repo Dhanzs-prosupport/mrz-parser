@@ -1,11 +1,15 @@
 {
-    "name": "deft/mrz-parser",
+    "name": "dhanzs/mrz-parser",
     "description": "Library to parse machine readable zones (MRZ) of passports and ID cards",
     "keywords": ["mrz", "parsing", "passport", "identity document"],
     "authors": [
         {
             "name": "Jan Kramer",
             "email": "jan@jankramer.eu"
+        },
+        {
+            "name": "Daniel Hánzs",
+            "email": "daniel.hanzs@chrome.hu"
         }
     ],
     "minimum-stability": "dev",

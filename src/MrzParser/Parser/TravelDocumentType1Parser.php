@@ -1,11 +1,11 @@
 <?php
 
-namespace Deft\MrzParser\Parser;
+namespace MrzParser\Parser;
 
-use Deft\MrzParser\Document\TravelDocument;
-use Deft\MrzParser\Document\TravelDocumentInterface;
-use Deft\MrzParser\Document\TravelDocumentType;
-use Deft\MrzParser\Exception\ParseException;
+use MrzParser\Document\TravelDocument;
+use MrzParser\Document\TravelDocumentInterface;
+use MrzParser\Document\TravelDocumentType;
+use MrzParser\Exception\ParseException;
 
 /**
  * Parser of "travel document type 1" (td1) documents. Below a reference to the format:
@@ -26,7 +26,7 @@ use Deft\MrzParser\Exception\ParseException;
  *   61 - 90: Name
  *
  *
- * @package Deft\MrzParser\Parser
+ * @package MrzParser\Parser
  */
 class TravelDocumentType1Parser extends AbstractParser
 {

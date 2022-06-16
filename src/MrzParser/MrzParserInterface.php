@@ -1,8 +1,8 @@
 <?php
 
-namespace Deft\MrzParser;
+namespace MrzParser;
 
-use Deft\MrzParser\Document\TravelDocumentInterface;
+use MrzParser\Document\TravelDocumentInterface;
 
 interface MrzParserInterface
 {
